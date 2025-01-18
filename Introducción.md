@@ -3,23 +3,23 @@ En la actualidad, se puede considerar casi obligatorio el uso de herramientas de
 La monitorización de servidores implica supervisar y recopilar datos sobre el hardware (CPU, memoria, disco, red) y software (aplicaciones web, bases de datos) para detectar problemas, optimizar recursos y planificar la capacidad futura. Linux, entre otros, ofrece herramientas en línea de comandos para esta tarea crucial.
 
 ## Ventajas de la Monitorización
-1. Eficiencia Operativa y Reducción de Costos
+### 1. Eficiencia Operativa y Reducción de Costos
     - Optimización de recursos informáticos
     - Identifiación de cuellos de botella y prevención de tiempos de inactividad
     - Reducción de costos por fallos y mantenimientos correctivos
-2. Mejora de la Calidad y Seguridad
+### 2. Mejora de la Calidad y Seguridad
     - Garantía del funcionamiento correcto de los sistemas
     - Detección temprana de amenazas y protección de datos sensibles
     - Mejora de procesos internos y externos mediante la estabilidad del sistema
-3. Toma de Decisiones Informadas
+### 3. Toma de Decisiones Informadas
     - Análisis de métricas y datos para decisiones basadas en información precisa
     - Generación de informes y alertas para actuar proactivamente
 ## Implementación de la Monitorización
 La implementación de la monitorización de sistemas es un proceso crucial para garantizar el correcto funcionamiento de la infraestructura IT de una empresa.
-1. Configuración inicial
+### 1. Configuración inicial
     - Selección de software adecuado e instalación en los sistemas
     - Establecimiento de parámetros de medición y umbrales de alerta
-2. Creación de Alertas Personalizadas
+### 2. Creación de Alertas Personalizadas
     - Identificación y configuración personalizada de alertas para eventos críticos que requieren una notificación inmediata
     - Verificación y ajuste de alertas para optimizar la respuesta ante emergencias, minimizando los tiempos de respuesta
       
