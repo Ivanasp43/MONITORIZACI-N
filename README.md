@@ -1,6 +1,6 @@
 # MONITORIZACIÓN
 ## Bienvenido al repositorio de documentación técnica sobre monitorización por línea de comandos.
-![Monitorización](https://ibb.co/fnM71nz)
+![monitorización](https://github.com/user-attachments/assets/a48514cc-cc64-456d-8eab-4bbb80508054)
 1. [Introducción](Introducción.md)
 2. [Monitorización de procesos](Monitorizacióndeprocesos.md)
 3. [Monitorización del almacenamiento](Monitorizacióndelalmacenamiento.md)
