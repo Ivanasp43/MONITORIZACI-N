@@ -37,7 +37,7 @@ El comando *ps* proporciona una instantánea de los procesos en ejecución. Es �
       - ps aux: Lista todos los procesos del sistema, incluidos los que no están asociados a ninguna terminal
       - ps -C nano <nombre>: Muestra los procesos que coinciden con un nombre específico en el editor de texto.
 ### 4. ATOP
-Se trata de una herramienta avanzada y versátil para monitorizar no sólo procesos, sino también otros recursos del sistema, como disco, red y memoria. Realiza yb monitoreo en tiempo real, registro de datos, visualización flexible y alertas.
+Se trata de una herramienta avanzada y versátil para monitorizar no sólo procesos, sino también otros recursos del sistema, como disco, red y memoria. Realiza un monitoreo en tiempo real, registro de datos, visualización flexible y alertas.
   - Síntaxis básica: *atop [opciones]*
       - atop -d <segundos>: Establece el intervalo de actualización en segundos.
       - atop -r <archivo>: Especifica un archivo para registrar datos.
@@ -48,15 +48,12 @@ Se trata de una herramienta avanzada y versátil para monitorizar no sólo proce
 
 ### Comparación entre herramientas
 
-[Herramienta]|     [Uso principal]       |   [INterfaz]    |[Histórico]
-    ps       | Instantánea de procesos   |  No interactiva |    No
-    top      | Monitorización en tiempo  |   Interactiva   |    No
-             | real
-    htop     | Monitorización en tiempo  |   Interactiva   |    No
-             | real                      |    y visual     |    No
-    atop     | Monitorización detallada  |   Interactiva   |    Sí
-             | y registros
-    
+| Herramienta | Uso principal | Interfaz | Histórico |
+|---|---|---|---|
+| ps | Instantánea de procesos | No interactiva | No |
+| top | Monitoreo en tiempo real | Interactiva | No |
+| htop | Monitoreo en tiempo real | Interactiva y visual | No |
+| atop | Monitoreo detallado y registros | Interactiva | Sí |
 
   
   
