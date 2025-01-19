@@ -2,7 +2,7 @@
 La monitorización de procesos en la administración de sistemas informáticos y redes, se centra en la observación y gestión de las aplicaciones y servicios que se ejecutan en un sistema. La monitorización de procesos permite supervisar las aplicaciones y servicios que se están ejecutando en un sistema. Esto es esencial para identificar cuellos de botella, procesos que consumen demasiados recursos y garantizar que los servicios críticos estén funcionando correctamente. En este apartado, se presentan las herramientas principales para analizar los procesos en tiempo real y realizar diagnósticos rápidos. Linux ofrece varias herramientas en línea de comandos para monitorizar el hardware: CPU, memoria, uso de disco duro y red.
 
 ### Algunas herramientas útiles son:
-[### 1. TOP](ImagenesProcesos.md)
+[### 1. TOP](ImagenesProcesos.md<img width="638" alt="top" src="https://github.com/user-attachments/assets/2fddf2a2-40b6-4218-8854-edec304f82f0" />)
 
 Herramienta que permite monitorizar los procesos del sistema en tiempo real, ver cuánto porcentaje de procesador se está usando, cuanta memoria se está usando y qué procesos lo están haciendo, además de conocer qué cantidad de memoria total tiene el sistema.
   - Sintáxis básica: *top [opciones]*
