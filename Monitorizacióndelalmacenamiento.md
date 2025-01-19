@@ -31,3 +31,6 @@ Muestra las estadísticas de entrada/salida del sistema. Genera informes a nivel
       - -x: Proporciona estadísticas ampliadas y detalladas de cada dispositivo de almacenamiento, como el tiempo de espera y la utilización.
       - -t: Incluye la marca de tiempo en la salida pra cada informe.
       - -p: Muestra estadísticas de las particiones de un dispositivo específico. Si no se especifica un dispositivo, incluye todas las particiones.
+      - -s: Muestra un resumen compacto del rendimiento del sistema, que incluye estadísticas generales de CPU, dispositivos y transferencia de datos.
+      - -h: Muestra las estadísticas en un formato más legible para humanos, utilizando unidades como KB, MB, GB, en lugar de bloques o valores sin contexto.
+      - -free: Permite ver la memoria física del sistema y la cantidad de memoria virtual o swap.
