@@ -12,7 +12,7 @@ Herramienta que permite monitorizar los procesos del sistema en tiempo real, ver
       - top p: Muestra información de un proceso específico por su PID.
       - top R: Invierte el orden actual de la lista de los procesos.
       - top U: Filtra y muestra procesos de un usuario específico.
-      - top q: Venta inmediata del programa *top*.
+      - top q: Salida inmediata del programa *top*.
       - top k: Permite finalizar un proceso ingresando su PID.
 ### 2. HTOP
 ES una herramienta con el mismo propósito que *top* pero más avanzada. Muestra algo más de información: permite ver los procesos del sistema, el consumo del procesador y la memoria que se está usando. TAmbién permite ver el uso del procesador por el núcleo de CPU.
