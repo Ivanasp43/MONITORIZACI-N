@@ -3,6 +3,7 @@ La monitorización de procesos en la administración de sistemas informáticos y
 
 ### Algunas herramientas útiles son:
 [### 1. TOP](ImagenesProcesos.md)
+
 Herramienta que permite monitorizar los procesos del sistema en tiempo real, ver cuánto porcentaje de procesador se está usando, cuanta memoria se está usando y qué procesos lo están haciendo, además de conocer qué cantidad de memoria total tiene el sistema.
   - Sintáxis básica: *top [opciones]*
   - Opciones comunes
