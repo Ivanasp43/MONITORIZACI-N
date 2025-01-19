@@ -7,12 +7,19 @@ La monitorización de procesos en la administración de sistemas informáticos y
 Herramienta que permite monitorizar los procesos del sistema en tiempo real, ver cuánto porcentaje de procesador se está usando, cuanta memoria se está usando y qué procesos lo están haciendo, además de conocer qué cantidad de memoria total tiene el sistema.
   - Sintáxis básica: *top [opciones]*
   - Opciones comunes
+    
       [- top T: Ordena los procesos según el tiempo total de CPU utilizado.](https://github.com/user-attachments/assets/ebe9b4dd-9068-430b-ab52-c8fe5e34fc0f)
+    
       [- top M: Cambia la visualización de la memoria a unidades de Megabytes(MB).](https://github.com/user-attachments/assets/8827ae59-a57f-4ad6-a73e-e9011f4e371a)
+    
       [- top P: Ordena los procesos por uso de CPU (de mayor a menor porcentaje).](https://github.com/user-attachments/assets/ecf5d089-d569-40d9-89c9-e79f64fa3e7c)
+    
       [- top R: Invierte el orden actual de la lista de los procesos.](https://github.com/user-attachments/assets/9f618c2b-c520-4f4c-b7d9-03b047d6851e)
+    
       [- top U: Filtra y muestra procesos de un usuario específico.](https://github.com/user-attachments/assets/54282527-065a-4077-aabb-6b3049a48d02)
+    
       [- top q: Salida inmediata del programa *top*.](https://github.com/user-attachments/assets/99a04eb9-98e6-43d5-85ef-b4a7e75a8d25)
+    
       [- top k: Permite finalizar un proceso ingresando su PID.](https://github.com/user-attachments/assets/1a766eda-cd0b-4020-b556-9cb9aeeee907)
         
 ### 2. HTOP
