@@ -8,7 +8,7 @@ Herramienta que permite monitorizar los procesos del sistema en tiempo real, ver
   - Sintáxis básica: *top [opciones]*
   - Opciones comunes
     
-      [- top T: Ordena los procesos según el tiempo total de CPU utilizado.](https://github.com/user-attachments/assets/ebe9b4dd-9068-430b-ab52-c8fe5e34fc0f)
+      [- top T:](https://github.com/user-attachments/assets/ebe9b4dd-9068-430b-ab52-c8fe5e34fc0f) Ordena los procesos según el tiempo total de CPU utilizado.
     
       [- top M: Cambia la visualización de la memoria a unidades de Megabytes(MB).](https://github.com/user-attachments/assets/8827ae59-a57f-4ad6-a73e-e9011f4e371a)
     
