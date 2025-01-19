@@ -9,7 +9,6 @@ Herramienta que permite monitorizar los procesos del sistema en tiempo real, ver
       - top T: Ordena los procesos según el tiempo total de CPU utilizado.
       - top M: Cambia la visualización de la memoria a unidades de Megabytes(MB).
       - top P: Ordena los procesos por uso de CPU (de mayor a menor porcentaje).
-      - top p: Muestra información de un proceso específico por su PID.
       - top R: Invierte el orden actual de la lista de los procesos.
       - top U: Filtra y muestra procesos de un usuario específico.
       - top q: Salida inmediata del programa *top*.
