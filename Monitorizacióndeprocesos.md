@@ -8,19 +8,19 @@ Herramienta que permite monitorizar los procesos del sistema en tiempo real, ver
   - Sintáxis básica: *top [opciones]*
   - Opciones comunes
     
-      [- top T:](https://github.com/user-attachments/assets/ebe9b4dd-9068-430b-ab52-c8fe5e34fc0f) Ordena los procesos según el tiempo total de CPU utilizado.
+      [- top T: ](https://github.com/user-attachments/assets/ebe9b4dd-9068-430b-ab52-c8fe5e34fc0f) Ordena los procesos según el tiempo total de CPU utilizado.
     
-      [- top M: Cambia la visualización de la memoria a unidades de Megabytes(MB).](https://github.com/user-attachments/assets/8827ae59-a57f-4ad6-a73e-e9011f4e371a)
+      [- top M: ](https://github.com/user-attachments/assets/8827ae59-a57f-4ad6-a73e-e9011f4e371a) Cambia la visualización de la memoria a unidades de Megabytes(MB).
     
-      [- top P: Ordena los procesos por uso de CPU (de mayor a menor porcentaje).](https://github.com/user-attachments/assets/ecf5d089-d569-40d9-89c9-e79f64fa3e7c)
+      [- top P: ](https://github.com/user-attachments/assets/ecf5d089-d569-40d9-89c9-e79f64fa3e7c) Ordena los procesos por uso de CPU (de mayor a menor porcentaje).
     
-      [- top R: Invierte el orden actual de la lista de los procesos.](https://github.com/user-attachments/assets/9f618c2b-c520-4f4c-b7d9-03b047d6851e)
+      [- top R: ](https://github.com/user-attachments/assets/9f618c2b-c520-4f4c-b7d9-03b047d6851e) Invierte el orden actual de la lista de los procesos.
     
-      [- top U: Filtra y muestra procesos de un usuario específico.](https://github.com/user-attachments/assets/54282527-065a-4077-aabb-6b3049a48d02)
+      [- top U: ](https://github.com/user-attachments/assets/54282527-065a-4077-aabb-6b3049a48d02) Filtra y muestra procesos de un usuario específico.
     
-      [- top q: Salida inmediata del programa *top*.](https://github.com/user-attachments/assets/99a04eb9-98e6-43d5-85ef-b4a7e75a8d25)
+      [- top q: ](https://github.com/user-attachments/assets/99a04eb9-98e6-43d5-85ef-b4a7e75a8d25) Salida inmediata del programa *top*.
     
-      [- top k: Permite finalizar un proceso ingresando su PID.](https://github.com/user-attachments/assets/1a766eda-cd0b-4020-b556-9cb9aeeee907)
+      [- top k: ](https://github.com/user-attachments/assets/1a766eda-cd0b-4020-b556-9cb9aeeee907) Permite finalizar un proceso ingresando su PID.
         
 ### 2. HTOP
 ES una herramienta con el mismo propósito que *top* pero más avanzada. Muestra algo más de información: permite ver los procesos del sistema, el consumo del procesador y la memoria que se está usando. TAmbién permite ver el uso del procesador por el núcleo de CPU.
