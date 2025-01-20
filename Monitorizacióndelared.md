@@ -9,24 +9,24 @@ La monitorización de la infraestructura le permite saber con precisión dónde 
 
 ### Algunas herramientas básicas son:
 
-[### 1. TCPTRACK -i nombreRed]()
+[### 1. TCPTRACK -i nombreRed](https://github.com/user-attachments/assets/748ccb9b-2055-479a-b102-f301e8263254)
 
 Comando poco conocido, nos muestra todos los datos del consumo de nuestra conexión. Se trata de un comando de monitorización de la red y de los paquetes que se envíen y reciban que, además, permite realizar pruebas de velocidad en internet. Se utiliza para monitorear conexiones TCP en tiempo real, mostrando estadísticas como dirección IP, puerto, estado de la conexión y el ancho de banda utilizado.
 
   - Sintáxis básica: *tcptrack -i [nombreRed] [opción]*
   - Opciones comunes:
     
-      [-tcptrack -i nombreRed -c: ]() Desactiva los colores en la salida.
+      [-tcptrack -i nombreRed -c: ](https://github.com/user-attachments/assets/92dc8753-8dbe-4b84-94d7-91b20315828a) Desactiva los colores en la salida.
         
-      [-tcptrack -i nombreRed -a: ]() Muestra todas las conexiones, incluidas cerradas o en espera.
+      [-tcptrack -i nombreRed -a: ](https://github.com/user-attachments/assets/e4482403-8a35-4dc6-b1d8-02027385a02b) Muestra todas las conexiones, incluidas cerradas o en espera.
         
-      [-tcptrack -i nombreRed -n: ]() No resuelve nombres de host, mostrando sólo direcciones IP.
+      [-tcptrack -i nombreRed -n: ](https://github.com/user-attachments/assets/4335763d-128c-4ac8-b7b4-e43b30320738) No resuelve nombres de host, mostrando sólo direcciones IP.
         
-      [-tcptrack -i nombreRed -t: ]() Ajusta el intervalo de actualización en segundos (por defecto es 1 segundo).
+      [-tcptrack -i nombreRed -t: ](https://github.com/user-attachments/assets/44215e4e-3fbf-490f-881d-788b93ee1fef) Ajusta el intervalo de actualización en segundos (por defecto es 1 segundo).
         
-      [-tcptrack -i nombreRed--p: ]() Proporciona detalles adicionales sobre las conexiones activas.
+      [-tcptrack -i nombreRed--p: ](https://github.com/user-attachments/assets/34baebe0-db7f-4e5d-90c7-e1625541af83) Proporciona detalles adicionales sobre las conexiones activas.
         
-      [-tcptrack -i nombreRed -l: ]() Ajusta la longitud de la ventana de salida.
+      [-tcptrack -i nombreRed -l: ](https://github.com/user-attachments/assets/613d1a40-daf3-4688-8053-d97209cada03) Ajusta la longitud de la ventana de salida.
 
 [### 2. NETSTAT](https://github.com/user-attachments/assets/debfb1dd-0da0-4201-8448-35f49b9347f0)
 
@@ -63,27 +63,27 @@ Se trata de una herramienta muy interesante y útil para monitorizar las redes I
     
       [-iptraf -i <interfaz>: ](https://github.com/user-attachments/assets/0f15a519-788d-4dc0-9dd9-731acbce981b) Monitorea el tráfico en una interfaz específica.
         
-      [-iptraf -d <interfaz>: ]() Muestra un resumen detallado de las estadísticas de tráico por una interfaz.
+      [-iptraf -d <interfaz>: ](https://github.com/user-attachments/assets/78eac389-0a52-4951-b55d-efaacf6c83cb) Muestra un resumen detallado de las estadísticas de tráico por una interfaz.
         
-      [-iptraf -s: ]() Muestra un resumen general del sistema, incluyendo tráfico en todas las interfaces.
+      [-iptraf -s: ](https://github.com/user-attachments/assets/ed5a396b-0cb5-410b-9c41-df386658398e) Muestra un resumen general del sistema, incluyendo tráfico en todas las interfaces.
         
-      [-iptraf -l: ]() Inicia un monitoreo en modo log, almacenando los resultados en un archivo de registro.
+      [-iptraf -l: ](https://github.com/user-attachments/assets/74e0b42c-2fa7-441f-806b-ff43b84c2ee4) Inicia un monitoreo en modo log, almacenando los resultados en un archivo de registro.
 
-[### 4. TCPDUMP]()
+[### 4. TCPDUMP](https://github.com/user-attachments/assets/15eac85c-9b80-4350-acc6-47456863f0d5)
 
 El comando tcpdump permite capturar el tráfico de red de una interfaz de red, para un puerto de red o para un nombre de host como origen o destino específico. Se trata de una herramienta muy poderosa para capturar y analizar el tráfico de red. Es muy utilizado para depuración de redes y monitoreo en tiempo real.
 
   - Sintáxis básica: *tcpdump [opciones] [filtro]*
   - Opciones comunes:
     
-      [-tcpdump -i <interfaz>: ]() Especifica la interfaz de red en la que se realizará la captura.
+      [-tcpdump -i <interfaz>: ](https://github.com/user-attachments/assets/c8456b37-a5a5-4cfa-852c-bcff8c112cfd) Especifica la interfaz de red en la que se realizará la captura.
         
-      [-tcpdump -n: ]() Evita resolver nombres de host y mustra direcciones IP en formato numérico.
+      [-tcpdump -n: ](https://github.com/user-attachments/assets/beb5ea7c-aa55-453f-9cea-1cd5f3ba2175) Evita resolver nombres de host y mustra direcciones IP en formato numérico.
         
-      [-tcpdump -c <número>: ]() Captura un número específico de paquetes.
+      [-tcpdump -c <número>: ](https://github.com/user-attachments/assets/3d4b7e9d-989f-4e8a-8cb1-f1f5b5aa1286) Captura un número específico de paquetes.
         
-      [-tcpdump -w <archivo>: ]() Guarda los paquetes capturados en un archivo.
+      [-tcpdump -w <archivo>: ](https://github.com/user-attachments/assets/aa56cbb2-ee43-4036-982a-16969b145831) Guarda los paquetes capturados en un archivo.
         
-      [-tcpdump -r <archivo>: ]() Analiza un archivo de captura existente.
+      [-tcpdump -r <archivo>: ](https://github.com/user-attachments/assets/57fa4244-eecb-41f5-b090-ef1cd274ee17) Analiza un archivo de captura existente.
         
     
