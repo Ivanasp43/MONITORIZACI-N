@@ -28,32 +28,32 @@ Comando poco conocido, nos muestra todos los datos del consumo de nuestra conexi
         
       [-tcptrack -i nombreRed -l: ]() Ajusta la longitud de la ventana de salida.
 
-[### 2. NETSTAT]()
+[### 2. NETSTAT](https://github.com/user-attachments/assets/debfb1dd-0da0-4201-8448-35f49b9347f0)
 
 Este comando permite ver cuáles son las conexiones de red establecidas por los procesos del sistema y su estado. Se utiliza para mostrar estadísticas de red, conexiones activas, tablas de enrutamiento, interfaces de red y más. Es una herramienta común para diagnosticar problemas de red y monitorear actividad.
 
   - sintáxis básicas: *netstat [opciones]*
   - Opciones comunes:
     
-      [-netstat -a: ]() Muestra todas las conexiones y puertos en encucha (listening).
+      [-netstat -a: ](https://github.com/user-attachments/assets/5edaf04f-51a6-4f3f-8ffc-fd77b0309b5f) Muestra todas las conexiones y puertos en encucha (listening).
         
-      [-netstat -t: ]() Muestra únicamente las conexiones TCP activas.
+      [-netstat -t: ](https://github.com/user-attachments/assets/c8c76203-45fc-44d7-a98b-4da882a8c585) Muestra únicamente las conexiones TCP activas.
         
-      [-netstat -u: ]() Muestra únicamente las conexiones UDP activas.
+      [-netstat -u: ](https://github.com/user-attachments/assets/bd82339f-a4b2-4a6b-9b6d-1e015b05a9a6) Muestra únicamente las conexiones UDP activas.
         
-      [-netstat -n: ]() Muestra direcciones y puertos en formato numérico en lugar de resolver nombres.
+      [-netstat -n: ](https://github.com/user-attachments/assets/05bb5622-eacb-4a69-8b24-7a75a9f3dff7) Muestra direcciones y puertos en formato numérico en lugar de resolver nombres.
         
-      [-netstat -l: ]() Muestra sólo los puertos de escucha.
+      [-netstat -l: ](https://github.com/user-attachments/assets/7b710c13-c382-4dc3-a81a-752d3458ed42) Muestra sólo los puertos de escucha.
         
-      [-netstat -p: ]() Muestra el PID y el nombre del programa asociado a cada conexión.
+      [-netstat -p: ](https://github.com/user-attachments/assets/5b5c4e86-f407-48bf-9f65-a5ff66736d22) Muestra el PID y el nombre del programa asociado a cada conexión.
         
-      [-netstat -r: ]() Muestra la tabla de enrutamiento del kernel.
+      [-netstat -r: ](https://github.com/user-attachments/assets/15ef214e-434e-4bfc-a377-9b6108e0895c) Muestra la tabla de enrutamiento del kernel.
         
-      [-netstat -i: ]() Muestra estadísticas de las interfaces de red.
+      [-netstat -i: ](https://github.com/user-attachments/assets/963d2499-a609-4c16-a27b-1c7fccf32b3b) Muestra estadísticas de las interfaces de red.
         
-      [-netstat -s: ]() Muestra estadísticas detalladas de protocolos, como TCP, UDP e ICMP.
+      [-netstat -s: ](https://github.com/user-attachments/assets/d766ee4a-07dc-4d78-8202-5e8ddcd794c0) Muestra estadísticas detalladas de protocolos, como TCP, UDP e ICMP.
         
-      [-netstat -c: ]() Actualiza la salida de manera continua en intervalos.
+      [-netstat -c: ](ttps://github.com/user-attachments/assets/eeb83549-15d3-4fa5-8636-46bc666c0884) Actualiza la salida de manera continua en intervalos.
         
 [### 3. IPTRAF]()
 
