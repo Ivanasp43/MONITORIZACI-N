@@ -67,7 +67,7 @@ Se trata de una herramienta avanzada y versátil para monitorizar no sólo proce
         
       [- atop -r <archivo>: ]() Especifica un archivo para registrar datos.
         
-      [- atop -w: ]() Activa el modo escritura, reemplazando el archivo de registro existente.
+      [- atop -W: ]() Activa el modo escritura, reemplazando el archivo de registro existente.
         
       [- atop -D: ]() Desactiva la visualización gráfica y muestra sólo datos en formato ASCII.
         
