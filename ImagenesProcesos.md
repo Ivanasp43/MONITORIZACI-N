@@ -7,3 +7,8 @@
 <img width="637" alt="top_P" src="https://github.com/user-attachments/assets/ecf5d089-d569-40d9-89c9-e79f64fa3e7c" />
 <img width="640" alt="top_R" src="https://github.com/user-attachments/assets/9f618c2b-c520-4f4c-b7d9-03b047d6851e" />
 <img width="648" alt="top_U" src="https://github.com/user-attachments/assets/54282527-065a-4077-aabb-6b3049a48d02" />
+<img width="371" alt="htop" src="https://github.com/user-attachments/assets/cb77e9c3-b5e3-460a-ad2a-8025c0d807d1" />
+<img width="629" alt="htop-p" src="https://github.com/user-attachments/assets/1e3f56b7-f6cf-4032-b0b8-0ed34444def3" />
+<img width="638" alt="htop--tree" src="https://github.com/user-attachments/assets/e84639cb-acb7-4ec1-84b1-336f2d2007df" />
+<img width="374" alt="htop-u" src="https://github.com/user-attachments/assets/f84d89fa-c705-4e56-8bc4-e72299fe1292" />
+<img width="638" alt="htop_atajos" src="https://github.com/user-attachments/assets/ba9b489d-ca3c-4576-9b63-dc7b1811bac0" />
