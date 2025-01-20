@@ -53,7 +53,7 @@ Este comando permite ver cuáles son las conexiones de red establecidas por los 
         
       [-netstat -s: ](https://github.com/user-attachments/assets/d766ee4a-07dc-4d78-8202-5e8ddcd794c0) Muestra estadísticas detalladas de protocolos, como TCP, UDP e ICMP.
         
-      [-netstat -c: ](ttps://github.com/user-attachments/assets/eeb83549-15d3-4fa5-8636-46bc666c0884) Actualiza la salida de manera continua en intervalos.
+      [-netstat -c: ](https://github.com/user-attachments/assets/eeb83549-15d3-4fa5-8636-46bc666c0884) Actualiza la salida de manera continua en intervalos.
         
 [### 3. IPTRAF]()
 
