@@ -9,24 +9,24 @@ La monitorización de la infraestructura le permite saber con precisión dónde 
 
 ### Algunas herramientas básicas son:
 
-[### 1. TCPTRACK]()
+[### 1. TCPTRACK -i nombreRed]()
 
 Comando poco conocido, nos muestra todos los datos del consumo de nuestra conexión. Se trata de un comando de monitorización de la red y de los paquetes que se envíen y reciban que, además, permite realizar pruebas de velocidad en internet. Se utiliza para monitorear conexiones TCP en tiempo real, mostrando estadísticas como dirección IP, puerto, estado de la conexión y el ancho de banda utilizado.
 
-  - Sintáxis básica: *tcptrack [opciones] [filtro]*
+  - Sintáxis básica: *tcptrack -i [nombreRed] [opción]*
   - Opciones comunes:
     
-      [-tcptrack -c: ]() Desactiva los colores en la salida.
+      [-tcptrack -i nombreRed -c: ]() Desactiva los colores en la salida.
         
-      [-tcptrack -a: ]() Muestra todas las conexiones, incluidas cerradas o en espera.
+      [-tcptrack -i nombreRed -a: ]() Muestra todas las conexiones, incluidas cerradas o en espera.
         
-      [-tcptrack -n: ]() No resuelve nombres de host, mostrando sólo direcciones IP.
+      [-tcptrack -i nombreRed -n: ]() No resuelve nombres de host, mostrando sólo direcciones IP.
         
-      [-tcptrack -t: ]() Ajusta el intervalo de actualización en segundos (por defecto es 1 segundo).
+      [-tcptrack -i nombreRed -t: ]() Ajusta el intervalo de actualización en segundos (por defecto es 1 segundo).
         
-      [-tcptrack -p: ]() Proporciona detalles adicionales sobre las conexiones activas.
+      [-tcptrack -i nombreRed--p: ]() Proporciona detalles adicionales sobre las conexiones activas.
         
-      [-tcptrack -l: ]() Ajusta la longitud de la ventana de salida.
+      [-tcptrack -i nombreRed -l: ]() Ajusta la longitud de la ventana de salida.
 
 [### 2. NETSTAT]()
 
