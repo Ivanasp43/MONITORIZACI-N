@@ -63,17 +63,17 @@ Se trata de una herramienta avanzada y versátil para monitorizar no sólo proce
   - Síntaxis básica: *atop [opciones]*
   - Opciones comunes:
     
-      [- atop -d <segundos>: ]() Establece el intervalo de actualización en segundos.
+      [- atop -d <segundos>: ](https://github.com/user-attachments/assets/0fc729f5-55a7-452b-b95f-be0142d77675) Establece el intervalo de actualización en segundos.
         
-      [- atop -r <archivo>: ]() Especifica un archivo para registrar datos.
+      [- atop -r <archivo>: ](https://github.com/user-attachments/assets/20df0253-fa53-4594-bf17-13a28a8b4d72) Especifica un archivo para registrar datos.
         
-      [- atop -W: ]() Activa el modo escritura, reemplazando el archivo de registro existente.
+      [- atop -W: ](https://github.com/user-attachments/assets/a3e38e27-16bd-44a8-96c3-65fcd6ed8e55) Activa el modo escritura, reemplazando el archivo de registro existente.
         
-      [- atop -D: ]() Desactiva la visualización gráfica y muestra sólo datos en formato ASCII.
+      [- atop -D: ](https://github.com/user-attachments/assets/85211cc5-3f37-4dc2-832a-1123e581586c) Desactiva la visualización gráfica y muestra sólo datos en formato ASCII.
         
-      [- atop -n <número>: ]() Establece el número de iteraciones antes de finalizar.
+      [- atop -n <número>: ](https://github.com/user-attachments/assets/b71aec01-0461-4734-afb7-8df5a08d2261) Establece el número de iteraciones antes de finalizar.
         
-      [- atop -s <fecha>: ]() Inicia la visualización desde una fecha específica.
+      [- atop -s <fecha>: ](https://github.com/user-attachments/assets/9999e41a-3d04-44bc-a1ae-4dc514aee5ba) Inicia la visualización desde una fecha específica.
 
 ### Comparación entre herramientas
 
