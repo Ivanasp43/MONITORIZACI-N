@@ -13,7 +13,7 @@ El comando *df* permite ver información del almacenamiento de las unidades cone
     
       [-df -T: ]() Muestra el tipo de sistema de archivos (ext4,xfs...).
     
-      [-df -x <tipoarchivo>: ]() Excluye sistemas de archivos del tipo especificado.
+      [-df -x tipo archivo: ]() Excluye sistemas de archivos del tipo especificado.
 
 [### 2. DU]()
 
