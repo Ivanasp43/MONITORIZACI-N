@@ -17,10 +17,6 @@
 <img width="476" alt="ps-Cnano" src="https://github.com/user-attachments/assets/9a0dd374-0dbc-4b1b-8727-6cd862255d34" />
 <img width="478" alt="ps_aux" src="https://github.com/user-attachments/assets/61d05a7d-f563-46c0-8dd7-8cfcdb761e67" />
 <img width="641" alt="atop" src="https://github.com/user-attachments/assets/8899d042-aca6-4738-a056-b40f0350dc37" />
-![atop](https://github.com/user-attachments/assets/5b96c7b2-1008-47ba-951c-899abff19fbf)
-![atopD](https://github.com/user-attachments/assets/99d2546a-eff7-4ab6-b1e7-bd1f30989748)
-![atop-d](https://github.com/user-attachments/assets/c1462814-d886-4c83-8515-805eff2a5799)
-![atop-n png](https://github.com/user-attachments/assets/bb79d460-9f63-4094-ac1a-8e16d366e14f)
-![atop-r](https://github.com/user-attachments/assets/7540032e-fadc-4b11-ad95-8ddcf6374725)
-![atop-s](https://github.com/user-attachments/assets/fd9b17a7-a058-451f-abc0-44788a269d2d)
-![atop-W](https://github.com/user-attachments/assets/1f75586c-d36a-4aac-9cd0-af676739d685)
+
+
+![atop-d](https://github.com/user-attachments/assets/0fc729f5-55a7-452b-b95f-be0142d77675)
