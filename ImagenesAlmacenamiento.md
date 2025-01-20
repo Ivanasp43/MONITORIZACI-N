@@ -1,1 +1,20 @@
 
+<img width="478" alt="iostat-c" src="https://github.com/user-attachments/assets/d06a43a3-bf4e-4905-aeb6-1b9ad701271f" />
+<img width="479" alt="iostat" src="https://github.com/user-attachments/assets/42d0b6fa-5e37-41c2-a4fa-1924f2b771cf" />
+<img width="482" alt="du-sh" src="https://github.com/user-attachments/assets/eb17219c-5836-47ee-90b8-6fb160cb42ac" />
+<img width="481" alt="du-s" src="https://github.com/user-attachments/assets/6295e53a-1a9b-4062-8f0a-6f992343e681" />
+<img width="479" alt="du-h" src="https://github.com/user-attachments/assets/a3add6cf-c89e-419b-93f6-d6de317d6ceb" />
+<img width="482" alt="du-c" src="https://github.com/user-attachments/assets/c880b3d5-a4aa-4fe3-a9d0-3849a83d96c3" />
+<img width="480" alt="du-a" src="https://github.com/user-attachments/assets/649bbf8b-5772-4f04-8d67-ea590d52f614" />
+<img width="480" alt="du" src="https://github.com/user-attachments/assets/3958c15a-2ffc-4d1e-a479-b69b6e5a1376" />
+<img width="478" alt="df-x" src="https://github.com/user-attachments/assets/5c2df9bf-2440-4de0-af03-39b96c7c32a0" />
+<img width="477" alt="df-T" src="https://github.com/user-attachments/assets/51806cb7-a41e-4fa1-9a88-c705bdefd9c0" />
+<img width="478" alt="df-h" src="https://github.com/user-attachments/assets/bb5a9671-8db6-423f-b16c-153bc875ccef" />
+<img width="479" alt="df" src="https://github.com/user-attachments/assets/6e8d6d36-4cbb-48f0-911c-1cb069b89438" />
+<img width="640" alt="iostat-x" src="https://github.com/user-attachments/assets/9a98da98-f910-4671-b031-95b18518fca1" />
+<img width="640" alt="iostat-t" src="https://github.com/user-attachments/assets/4321a0d5-8b04-4a5e-9c61-85775f47fa97" />
+<img width="475" alt="iostat-s" src="https://github.com/user-attachments/assets/15bdee9d-7e02-476c-a4e6-8182cc2b2781" />
+<img width="642" alt="iostat-p" src="https://github.com/user-attachments/assets/a06700a5-0e9d-4948-9ba3-f756dbd94e0e" />
+<img width="480" alt="iostat-h" src="https://github.com/user-attachments/assets/5019cba6-27dd-4d9a-84ce-93a798be3589" />
+<img width="480" alt="iostat-free" src="https://github.com/user-attachments/assets/e694d455-487a-4541-9816-1e83213a7148" />
+<img width="477" alt="iostat-d" src="https://github.com/user-attachments/assets/2ffa4d57-fd85-4b2c-8e1b-5d787c3f0190" />
