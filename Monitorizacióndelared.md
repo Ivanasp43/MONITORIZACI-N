@@ -35,57 +35,57 @@ Este comando permite ver cuáles son las conexiones de red establecidas por los 
   - sintáxis básicas: *netstat [opciones]*
   - Opciones comunes
     
-      - -a: Muestra todas las conexiones y puertos en encucha (listening).
+      [- -a: ]() Muestra todas las conexiones y puertos en encucha (listening).
         
-      - -t: Muestra únicamente las conexiones TCP activas.
+      [- -t: ]() Muestra únicamente las conexiones TCP activas.
         
-      - -u: Muestra únicamente las conexiones UDP activas.
+      [- -u: ]() Muestra únicamente las conexiones UDP activas.
         
-      - -n: Muestra direcciones y puertos en formato numérico en lugar de resolver nombres.
+      [- -n: ]() Muestra direcciones y puertos en formato numérico en lugar de resolver nombres.
         
-      - -l: Muestra sólo los puertos de escucha.
+      [- -l: ]() Muestra sólo los puertos de escucha.
         
-      - -p: Muestra el PID y el nombre del programa asociado a cada conexión.
+      [- -p: ]() Muestra el PID y el nombre del programa asociado a cada conexión.
         
-      - -r: Muestra la tabla de enrutamiento del kernel.
+      [- -r: ]() Muestra la tabla de enrutamiento del kernel.
         
-      - -i: Muestra estadísticas de las interfaces de red.
+      [- -i: ]() Muestra estadísticas de las interfaces de red.
         
-      - -s: Muestra estadísticas detalladas de protocolos, como TCP, UDP e ICMP.
+      [- -s: ]() Muestra estadísticas detalladas de protocolos, como TCP, UDP e ICMP.
         
-      - -c: Actualiza la salida de manera continua en intervalos.
+      [- -c: ]() Actualiza la salida de manera continua en intervalos.
         
-### 3. IPTRAF
+[### 3. IPTRAF]()
 
 Se trata de una herramienta muy interesante y útil para monitorizar las redes IP y donde se puede usar para monitorizar la carga en la red. Iptraf intercepta paquetes en la red y muestra información sobre el tráfico. Se trata de una herramienta interactiva para monitorear el tráfico de red en tiempo real. Proporciona estadísticas detalladas de conexiones, ancho de banda y uso de interfaces.
   - Sintáxis básica: *iptraf [opciones]*
   - Opciones comunes
     
-      - -i <interfaz>: Monitorea el tráfico en una interfaz específica.
+      [- -i <interfaz>: ]() Monitorea el tráfico en una interfaz específica.
         
-      - -d <interfaz>: Muestra un resumen detallado de las estadísticas de tráico por una interfaz.
+      [- -d <interfaz>: ]() Muestra un resumen detallado de las estadísticas de tráico por una interfaz.
         
-      - -s: Muestra un resumen general del sistema, incluyendo tráfico en todas las interfaces.
+      [- -s: ]() Muestra un resumen general del sistema, incluyendo tráfico en todas las interfaces.
         
-      - -l: Inicia un monitoreo en modo log, almacenando los resultados en un archivo de registro.
+      [- -l: ]() Inicia un monitoreo en modo log, almacenando los resultados en un archivo de registro.
         
-      - -t: Inicia el monitoreo en modo terminal sin interfaz y gráfica interactiva.
+      [- -t: ]() Inicia el monitoreo en modo terminal sin interfaz y gráfica interactiva.
 
-### 4. TCPDUMP
+[### 4. TCPDUMP]()
 
 El comando tcpdump permite capturar el tráfico de red de una interfaz de red, para un puerto de red o para un nombre de host como origen o destino específico. Se trata de una herramienta muy poderosa para capturar y analizar el tráfico de red. Es muy utilizado para depuración de redes y monitoreo en tiempo real.
 
-- Sintáxis básica: *tcpdump [opciones] [filtro]*
+  - Sintáxis básica: *tcpdump [opciones] [filtro]*
   - Opciones comunes
     
-      - -i <interfaz>: Especifica la interfaz de red en la que se realizará la captura.
+      [- -i <interfaz>: ]() Especifica la interfaz de red en la que se realizará la captura.
         
-      - -n Evita resolver nombres de host y mustra direcciones IP en formato numérico.
+      [- -n: ]() Evita resolver nombres de host y mustra direcciones IP en formato numérico.
         
-      - -c <número>: Captura un número específico de paquetes.
+      [- -c <número>: ]() Captura un número específico de paquetes.
         
-      - -w <archivo>: Guarda los paquetes capturados en un archivo.
+      [- -w <archivo>: ]() Guarda los paquetes capturados en un archivo.
         
-      - -r <archivo>: Analiza un archivo de captura existente.
+      [- -r <archivo>: ]() Analiza un archivo de captura existente.
         
-      - -v, -vv, -vvv: Aumenta el nivel de detalle en la salida.
+      [- -v, -vv, -vvv: ]() Aumenta el nivel de detalle en la salida.
