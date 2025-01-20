@@ -9,11 +9,11 @@ El comando *df* permite ver información del almacenamiento de las unidades cone
   - Sintáxis básica: *df [opciones]*
   - Opciones comunes
     
-      [- -h: ]() Muestra el tamaño de los sistemas de archivos en un formato legible para humanos (KB,MB,GB).
+      [-df -h: ]() Muestra el tamaño de los sistemas de archivos en un formato legible para humanos (KB,MB,GB).
     
-      [- -T: ]() Muestra el tipo de sistema de archivos (ext4,xfs...).
+      [-df -T: ]() Muestra el tipo de sistema de archivos (ext4,xfs...).
     
-      [- -x <tipoarchivo>: ]() Excluye sistemas de archivos del tipo especificado.
+      [-df -x <tipoarchivo>: ]() Excluye sistemas de archivos del tipo especificado.
 
 [### 2. DU]()
 
@@ -21,15 +21,15 @@ Informa sobre el uso de espacio en disco de archivos y directorios.
   - Sintáxis básica: *du [opciones] [ruta]*
   - Opciones comunes:
     
-    [- -h: ]() Muestra el tamaño legible para humanos.
+    [-du -h: ]() Muestra el tamaño legible para humanos.
       
-    [- -s: ]() Muestra el tamaño total del directorio en lugar de listar cada subdirectorio.
+    [-du -s: ]() Muestra el tamaño total del directorio en lugar de listar cada subdirectorio.
       
-    [- -a: ]() Muestra el tamaño de cada archivo individual dentro de los directorios.
+    [-du -a: ]() Muestra el tamaño de cada archivo individual dentro de los directorios.
       
-    [- -c: ]() Muestra el tamaño de los archivos/directorios y un total al final.
+    [-du -c: ]() Muestra el tamaño de los archivos/directorios y un total al final.
       
-    [- -sh: ]() Muestra sólo el tamaño total del directorio.
+    [-du -sh: ]() Muestra sólo el tamaño total del directorio.
 
 [### 3. IOSTAT]()
 
@@ -38,19 +38,19 @@ Muestra las estadísticas de entrada/salida del sistema. Genera informes a nivel
   - Sintáxis compleja: *iostat [opciones] [intervalos] [repeticiones]*
   - Opciones comunes:
     
-      [- -c: ]() Muestra estadísticas detalladas del uso de la CPU (usuario, sistema, inactivo, etc).
+      [-iostat -c: ]() Muestra estadísticas detalladas del uso de la CPU (usuario, sistema, inactivo, etc).
         
-      [- -d: ]() Muestra estadísticas de entrada/salida por dispositivo de almacenamiento (lecturas, escrituras, etc).
+      [-iostat -d: ]() Muestra estadísticas de entrada/salida por dispositivo de almacenamiento (lecturas, escrituras, etc).
         
-      [- -x: ]() Proporciona estadísticas ampliadas y detalladas de cada dispositivo de almacenamiento, como el tiempo de espera y la utilización.
+      [-iostat -x: ]() Proporciona estadísticas ampliadas y detalladas de cada dispositivo de almacenamiento, como el tiempo de espera y la utilización.
         
-      [- -t: ]() Incluye la marca de tiempo en la salida pra cada informe.
+      [-iostat -t: ]() Incluye la marca de tiempo en la salida pra cada informe.
         
-      [- -p: ]() Muestra estadísticas de las particiones de un dispositivo específico. Si no se especifica un dispositivo, incluye todas las particiones.
+      [-iostat -p: ]() Muestra estadísticas de las particiones de un dispositivo específico. Si no se especifica un dispositivo, incluye todas las particiones.
         
-      [- -s: ]() Muestra un resumen compacto del rendimiento del sistema, que incluye estadísticas generales de CPU, dispositivos y transferencia de datos.
+      [-iostat -s: ]() Muestra un resumen compacto del rendimiento del sistema, que incluye estadísticas generales de CPU, dispositivos y transferencia de datos.
         
-      [- -h: ]() Muestra las estadísticas en un formato más legible para humanos, utilizando unidades como KB, MB, GB, en lugar de bloques o valores sin contexto.
+      [-iostat -h: ]() Muestra las estadísticas en un formato más legible para humanos, utilizando unidades como KB, MB, GB, en lugar de bloques o valores sin contexto.
         
-      [- -free: ]() Permite ver la memoria física del sistema y la cantidad de memoria virtual o swap.
+      [-iostat -free: ]() Permite ver la memoria física del sistema y la cantidad de memoria virtual o swap.
         
