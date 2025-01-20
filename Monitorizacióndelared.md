@@ -55,13 +55,13 @@ Este comando permite ver cuáles son las conexiones de red establecidas por los 
         
       [-netstat -c: ](https://github.com/user-attachments/assets/eeb83549-15d3-4fa5-8636-46bc666c0884) Actualiza la salida de manera continua en intervalos.
         
-[### 3. IPTRAF]()
+[### 3. IPTRAF](https://github.com/user-attachments/assets/f7d04140-4d67-4bb9-a1d7-9da40fd44167)
 
 Se trata de una herramienta muy interesante y útil para monitorizar las redes IP y donde se puede usar para monitorizar la carga en la red. Iptraf intercepta paquetes en la red y muestra información sobre el tráfico. Se trata de una herramienta interactiva para monitorear el tráfico de red en tiempo real. Proporciona estadísticas detalladas de conexiones, ancho de banda y uso de interfaces.
   - Sintáxis básica: *iptraf [opciones]*
   - Opciones comunes:
     
-      [-iptraf -i <interfaz>: ]() Monitorea el tráfico en una interfaz específica.
+      [-iptraf -i <interfaz>: ](https://github.com/user-attachments/assets/0f15a519-788d-4dc0-9dd9-731acbce981b) Monitorea el tráfico en una interfaz específica.
         
       [-iptraf -d <interfaz>: ]() Muestra un resumen detallado de las estadísticas de tráico por una interfaz.
         
