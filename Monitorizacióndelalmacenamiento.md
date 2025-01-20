@@ -7,7 +7,7 @@ La monitorización del almacenamiento se refiere a la supervisión del uso de di
 
 El comando *df* permite ver información del almacenamiento de las unidades conectadas al sistema en el momento de ejecutar el comando. Permite ver cada una de ellas su capacidad total y espacio libre restante que le queda, dispositivo hardware, sus particiones y puntos de montaje.
   - Sintáxis básica: *df [opciones]*
-  - Opciones comunes
+  - Opciones comunes:
     
       [-df -h: ](https://github.com/user-attachments/assets/bb5a9671-8db6-423f-b16c-153bc875ccef) Muestra el tamaño de los sistemas de archivos en un formato legible para humanos (KB,MB,GB).
     
