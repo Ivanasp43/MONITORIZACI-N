@@ -12,3 +12,8 @@
 <img width="638" alt="htop--tree" src="https://github.com/user-attachments/assets/e84639cb-acb7-4ec1-84b1-336f2d2007df" />
 <img width="374" alt="htop-u" src="https://github.com/user-attachments/assets/f84d89fa-c705-4e56-8bc4-e72299fe1292" />
 <img width="638" alt="htop_atajos" src="https://github.com/user-attachments/assets/ba9b489d-ca3c-4576-9b63-dc7b1811bac0" />
+<img width="477" alt="ps" src="https://github.com/user-attachments/assets/74c598e3-7f0c-435f-b23e-f3c6070d5b18" />
+<img width="475" alt="ps_a" src="https://github.com/user-attachments/assets/96b01ecc-9f9f-4ec6-9303-f6a9ee7cd00c" />
+<img width="476" alt="ps-Cnano" src="https://github.com/user-attachments/assets/9a0dd374-0dbc-4b1b-8727-6cd862255d34" />
+<img width="478" alt="ps_aux" src="https://github.com/user-attachments/assets/61d05a7d-f563-46c0-8dd7-8cfcdb761e67" />
+<img width="641" alt="atop" src="https://github.com/user-attachments/assets/8899d042-aca6-4738-a056-b40f0350dc37" />
