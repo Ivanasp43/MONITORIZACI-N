@@ -86,4 +86,4 @@ El comando tcpdump permite capturar el tráfico de red de una interfaz de red, p
         
       [-tcpdump -r <archivo>: ]() Analiza un archivo de captura existente.
         
-      [-tcpdump -v, -vv, -vvv: ]() Aumenta el nivel de detalle en la salida.
+    
