@@ -14,78 +14,78 @@ La monitorización de la infraestructura le permite saber con precisión dónde 
 Comando poco conocido, nos muestra todos los datos del consumo de nuestra conexión. Se trata de un comando de monitorización de la red y de los paquetes que se envíen y reciban que, además, permite realizar pruebas de velocidad en internet. Se utiliza para monitorear conexiones TCP en tiempo real, mostrando estadísticas como dirección IP, puerto, estado de la conexión y el ancho de banda utilizado.
 
   - Sintáxis básica: *tcptrack [opciones] [filtro]*
-  - Opciones comunes
+  - Opciones comunes:
     
-      [- -c: ]() Desactiva los colores en la salida.
+      [-tcptrack -c: ]() Desactiva los colores en la salida.
         
-      [- -a: ]() Muestra todas las conexiones, incluidas cerradas o en espera.
+      [-tcptrack -a: ]() Muestra todas las conexiones, incluidas cerradas o en espera.
         
-      [- -n: ]() No resuelve nombres de host, mostrando sólo direcciones IP.
+      [-tcptrack -n: ]() No resuelve nombres de host, mostrando sólo direcciones IP.
         
-      [- -t: ]() Ajusta el intervalo de actualización en segundos (por defecto es 1 segundo).
+      [-tcptrack -t: ]() Ajusta el intervalo de actualización en segundos (por defecto es 1 segundo).
         
-      [- -p: ]() Proporciona detalles adicionales sobre las conexiones activas.
+      [-tcptrack -p: ]() Proporciona detalles adicionales sobre las conexiones activas.
         
-      [- -l: ]() Ajusta la longitud de la ventana de salida.
+      [-tcptrack -l: ]() Ajusta la longitud de la ventana de salida.
 
 [### 2. NETSTAT]()
 
 Este comando permite ver cuáles son las conexiones de red establecidas por los procesos del sistema y su estado. Se utiliza para mostrar estadísticas de red, conexiones activas, tablas de enrutamiento, interfaces de red y más. Es una herramienta común para diagnosticar problemas de red y monitorear actividad.
 
   - sintáxis básicas: *netstat [opciones]*
-  - Opciones comunes
+  - Opciones comunes:
     
-      [- -a: ]() Muestra todas las conexiones y puertos en encucha (listening).
+      [-netstat -a: ]() Muestra todas las conexiones y puertos en encucha (listening).
         
-      [- -t: ]() Muestra únicamente las conexiones TCP activas.
+      [-netstat -t: ]() Muestra únicamente las conexiones TCP activas.
         
-      [- -u: ]() Muestra únicamente las conexiones UDP activas.
+      [-netstat -u: ]() Muestra únicamente las conexiones UDP activas.
         
-      [- -n: ]() Muestra direcciones y puertos en formato numérico en lugar de resolver nombres.
+      [-netstat -n: ]() Muestra direcciones y puertos en formato numérico en lugar de resolver nombres.
         
-      [- -l: ]() Muestra sólo los puertos de escucha.
+      [-netstat -l: ]() Muestra sólo los puertos de escucha.
         
-      [- -p: ]() Muestra el PID y el nombre del programa asociado a cada conexión.
+      [-netstat -p: ]() Muestra el PID y el nombre del programa asociado a cada conexión.
         
-      [- -r: ]() Muestra la tabla de enrutamiento del kernel.
+      [-netstat -r: ]() Muestra la tabla de enrutamiento del kernel.
         
-      [- -i: ]() Muestra estadísticas de las interfaces de red.
+      [-netstat -i: ]() Muestra estadísticas de las interfaces de red.
         
-      [- -s: ]() Muestra estadísticas detalladas de protocolos, como TCP, UDP e ICMP.
+      [-netstat -s: ]() Muestra estadísticas detalladas de protocolos, como TCP, UDP e ICMP.
         
-      [- -c: ]() Actualiza la salida de manera continua en intervalos.
+      [-netstat -c: ]() Actualiza la salida de manera continua en intervalos.
         
 [### 3. IPTRAF]()
 
 Se trata de una herramienta muy interesante y útil para monitorizar las redes IP y donde se puede usar para monitorizar la carga en la red. Iptraf intercepta paquetes en la red y muestra información sobre el tráfico. Se trata de una herramienta interactiva para monitorear el tráfico de red en tiempo real. Proporciona estadísticas detalladas de conexiones, ancho de banda y uso de interfaces.
   - Sintáxis básica: *iptraf [opciones]*
-  - Opciones comunes
+  - Opciones comunes:
     
-      [- -i <interfaz>: ]() Monitorea el tráfico en una interfaz específica.
+      [-iptraf -i <interfaz>: ]() Monitorea el tráfico en una interfaz específica.
         
-      [- -d <interfaz>: ]() Muestra un resumen detallado de las estadísticas de tráico por una interfaz.
+      [-iptraf -d <interfaz>: ]() Muestra un resumen detallado de las estadísticas de tráico por una interfaz.
         
-      [- -s: ]() Muestra un resumen general del sistema, incluyendo tráfico en todas las interfaces.
+      [-iptraf -s: ]() Muestra un resumen general del sistema, incluyendo tráfico en todas las interfaces.
         
-      [- -l: ]() Inicia un monitoreo en modo log, almacenando los resultados en un archivo de registro.
+      [-iptraf -l: ]() Inicia un monitoreo en modo log, almacenando los resultados en un archivo de registro.
         
-      [- -t: ]() Inicia el monitoreo en modo terminal sin interfaz y gráfica interactiva.
+      [-iptraf -t: ]() Inicia el monitoreo en modo terminal sin interfaz y gráfica interactiva.
 
 [### 4. TCPDUMP]()
 
 El comando tcpdump permite capturar el tráfico de red de una interfaz de red, para un puerto de red o para un nombre de host como origen o destino específico. Se trata de una herramienta muy poderosa para capturar y analizar el tráfico de red. Es muy utilizado para depuración de redes y monitoreo en tiempo real.
 
   - Sintáxis básica: *tcpdump [opciones] [filtro]*
-  - Opciones comunes
+  - Opciones comunes:
     
-      [- -i <interfaz>: ]() Especifica la interfaz de red en la que se realizará la captura.
+      [-tcpdump -i <interfaz>: ]() Especifica la interfaz de red en la que se realizará la captura.
         
-      [- -n: ]() Evita resolver nombres de host y mustra direcciones IP en formato numérico.
+      [-tcpdump -n: ]() Evita resolver nombres de host y mustra direcciones IP en formato numérico.
         
-      [- -c <número>: ]() Captura un número específico de paquetes.
+      [-tcpdump -c <número>: ]() Captura un número específico de paquetes.
         
-      [- -w <archivo>: ]() Guarda los paquetes capturados en un archivo.
+      [-tcpdump -w <archivo>: ]() Guarda los paquetes capturados en un archivo.
         
-      [- -r <archivo>: ]() Analiza un archivo de captura existente.
+      [-tcpdump -r <archivo>: ]() Analiza un archivo de captura existente.
         
-      [- -v, -vv, -vvv: ]() Aumenta el nivel de detalle en la salida.
+      [-tcpdump -v, -vv, -vvv: ]() Aumenta el nivel de detalle en la salida.
