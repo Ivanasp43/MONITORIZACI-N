@@ -6,7 +6,7 @@ La monitorización de procesos en la administración de sistemas informáticos y
 
 Herramienta que permite monitorizar los procesos del sistema en tiempo real, ver cuánto porcentaje de procesador se está usando, cuanta memoria se está usando y qué procesos lo están haciendo, además de conocer qué cantidad de memoria total tiene el sistema.
   - Sintáxis básica: *top [opciones]*
-  - Opciones comunes
+  - Opciones comunes:
     
       [- top T: ](https://github.com/user-attachments/assets/ebe9b4dd-9068-430b-ab52-c8fe5e34fc0f) Ordena los procesos según el tiempo total de CPU utilizado.
     
@@ -27,7 +27,7 @@ Herramienta que permite monitorizar los procesos del sistema en tiempo real, ver
 ES una herramienta con el mismo propósito que *top* pero más avanzada. Muestra algo más de información: permite ver los procesos del sistema, el consumo del procesador y la memoria que se está usando. TAmbién permite ver el uso del procesador por el núcleo de CPU.
 Al igual que *top* permite ordenar la lista de procesos o uso de procesador, uso de memoria o, tipos de CPU consumidos en orden descendente o ascendente. Ofrece integración con el comando *lsof*.
   - Sintáxis básica: *htop [opciones] opciones*
-  - Opciones comunes
+  - Opciones comunes:
     
       [- htop -u <usuario>: ](https://github.com/user-attachments/assets/f84d89fa-c705-4e56-8bc4-e72299fe1292) Muestra sólo los procesos del usuario especificados.
         
@@ -49,7 +49,7 @@ Al igual que *top* permite ordenar la lista de procesos o uso de procesador, uso
 Este comando permite obtener información del estado de los procesos del sistema en el instante que se ejecuta. Posee varias opciones para filtrar los procesos que devuelve y su información de estado.
 El comando *ps* proporciona una instantánea de los procesos en ejecución. Es útil para obtener información espedífica sobre procesos.
   - Sintáxis básica: *ps [opciones] opciones comunes*
-  - Opciones comunes
+  - Opciones comunes:
     
       [- ps a: ](https://github.com/user-attachments/assets/96b01ecc-9f9f-4ec6-9303-f6a9ee7cd00c) Muestra todos los procesos asciados a la terminal, incluyendo los de otros usuarios.
     
@@ -61,7 +61,7 @@ El comando *ps* proporciona una instantánea de los procesos en ejecución. Es �
 
 Se trata de una herramienta avanzada y versátil para monitorizar no sólo procesos, sino también otros recursos del sistema, como disco, red y memoria. Realiza un monitoreo en tiempo real, registro de datos, visualización flexible y alertas.
   - Síntaxis básica: *atop [opciones]*
-  - Opciones comunes
+  - Opciones comunes:
     
       [- atop -d <segundos>: ]() Establece el intervalo de actualización en segundos.
         
