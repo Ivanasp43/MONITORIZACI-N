@@ -68,8 +68,6 @@ Se trata de una herramienta muy interesante y útil para monitorizar las redes I
       [-iptraf -s: ]() Muestra un resumen general del sistema, incluyendo tráfico en todas las interfaces.
         
       [-iptraf -l: ]() Inicia un monitoreo en modo log, almacenando los resultados en un archivo de registro.
-        
-      [-iptraf -t: ]() Inicia el monitoreo en modo terminal sin interfaz y gráfica interactiva.
 
 [### 4. TCPDUMP]()
 
