@@ -22,37 +22,58 @@ Herramienta que permite monitorizar los procesos del sistema en tiempo real, ver
     
       [- top k: ](https://github.com/user-attachments/assets/1a766eda-cd0b-4020-b556-9cb9aeeee907) Permite finalizar un proceso ingresando su PID.
         
-### 2. HTOP
+[### 2. HTOP](https://github.com/user-attachments/assets/cb77e9c3-b5e3-460a-ad2a-8025c0d807d1)
+
 ES una herramienta con el mismo propósito que *top* pero más avanzada. Muestra algo más de información: permite ver los procesos del sistema, el consumo del procesador y la memoria que se está usando. TAmbién permite ver el uso del procesador por el núcleo de CPU.
 Al igual que *top* permite ordenar la lista de procesos o uso de procesador, uso de memoria o, tipos de CPU consumidos en orden descendente o ascendente. Ofrece integración con el comando *lsof*.
   - Sintáxis básica: *htop [opciones] opciones*
   - Opciones comunes
-      - htop -u <usuario>: Muestra sólo los procesos del usuario especificados.
-      - htop --tree: Muestra los proceos en una vista jerárquica (en forma de árbol).
-      - htop -p <PID1, PID2>: Filtra y monitorea procesos específicos por sus PID's
-      - Atajos de teclados:
+    
+      [- htop -u <usuario>: ](https://github.com/user-attachments/assets/f84d89fa-c705-4e56-8bc4-e72299fe1292) Muestra sólo los procesos del usuario especificados.
+        
+      [- htop --tree: ](https://github.com/user-attachments/assets/e84639cb-acb7-4ec1-84b1-336f2d2007df) Muestra los proceos en una vista jerárquica (en forma de árbol).
+        
+      [- htop -p <PID1, PID2>: ](https://github.com/user-attachments/assets/1e3f56b7-f6cf-4032-b0b8-0ed34444def3) Filtra y monitorea procesos específicos por sus PID's
+        
+      [- Atajos de teclados: ](https://github.com/user-attachments/assets/ba9b489d-ca3c-4576-9b63-dc7b1811bac0)
+    
           - F2 (Setup)-Configuración
           - F3 (Search)-Búsqueda
           - F4 (Filter)-Filtro
           - F5 (Tree)-Vista en árbol
           - F6 (Sort)-Ordenar
           - F9 (Kill)-Terminar un proceso
-### 3. PS
+    
+[### 3. PS]()
+
 Este comando permite obtener información del estado de los procesos del sistema en el instante que se ejecuta. Posee varias opciones para filtrar los procesos que devuelve y su información de estado.
 El comando *ps* proporciona una instantánea de los procesos en ejecución. Es útil para obtener información espedífica sobre procesos.
   - Sintáxis básica: *ps [opciones] opciones comunes*
-      - ps a: Muestra todos los procesos asciados a la terminal, incluyendo los de otros usuarios.
-      - ps aux: Lista todos los procesos del sistema, incluidos los que no están asociados a ninguna terminal
-      - ps -C nano <nombre>: Muestra los procesos que coinciden con un nombre específico en el editor de texto.
-### 4. ATOP
+  - Opciones comunes
+    
+      [- ps a: ]() Muestra todos los procesos asciados a la terminal, incluyendo los de otros usuarios.
+    
+      [- ps aux: ]() Lista todos los procesos del sistema, incluidos los que no están asociados a ninguna terminal
+    
+      [- ps -C nano <nombre>: ]() Muestra los procesos que coinciden con un nombre específico en el editor de texto.
+    
+[### 4. ATOP]()
+
 Se trata de una herramienta avanzada y versátil para monitorizar no sólo procesos, sino también otros recursos del sistema, como disco, red y memoria. Realiza un monitoreo en tiempo real, registro de datos, visualización flexible y alertas.
   - Síntaxis básica: *atop [opciones]*
-      - atop -d <segundos>: Establece el intervalo de actualización en segundos.
-      - atop -r <archivo>: Especifica un archivo para registrar datos.
-      - atop -w: Activa el modo escritura, reemplazando el archivo de registro existente.
-      - atop -D: Desactiva la visualización gráfica y muestra sólo datos en formato ASCII.
-      - atop -n <número>: Establece el número de iteraciones antes de finalizar-
-      - atop -s <fecha>: Inicia la visualización desde una fecha específica.
+  - Opciones comunes
+    
+      [- atop -d <segundos>: ]() Establece el intervalo de actualización en segundos.
+        
+      [- atop -r <archivo>: ]() Especifica un archivo para registrar datos.
+        
+      [- atop -w: ]() Activa el modo escritura, reemplazando el archivo de registro existente.
+        
+      [- atop -D: ]() Desactiva la visualización gráfica y muestra sólo datos en formato ASCII.
+        
+      [- atop -n <número>: ]() Establece el número de iteraciones antes de finalizar.
+        
+      [- atop -s <fecha>: ]() Inicia la visualización desde una fecha específica.
 
 ### Comparación entre herramientas
 
